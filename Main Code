@@ -8,7 +8,7 @@ monke = int(input('#Enter Amount of Messages: '))
 
 webhook = DiscordWebhooks(webhook_url)
 
-webhook.set_content(title='àwebhook title',
+webhook.set_content(title='#webhook title',
                     description=message,
                     color=0xF58CBA)
 
